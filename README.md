@@ -1,8 +1,12 @@
-# Customer Churn Prediction App
+# Customer Churn Prediction with ANN
 
-This project is a web application built using **Streamlit** that predicts whether a customer is likely to churn based on input data.
+This project is a web application that predicts customer churn using an Artificial Neural Network (ANN). It is built with TensorFlow for model training and Streamlit for deployment.
 
----
+## 🚀 Live Demo
+
+Check out the deployed app here:  
+👉 [Customer Churn Prediction App](https://ann-classification-churn-vzhws5n3w3lgxbh2gtykox.streamlit.app/)
+
 
 ## 🔍 Features
 
