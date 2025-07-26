@@ -13,7 +13,6 @@ ENV/
 .venv/
 
 # Model and encoder files
-*.h5
 *.keras
 *.pkl
 
