@@ -22,6 +22,7 @@ Thumbs.db
 # Logs
 logs/
 *.log
+*regressionlogs
 
 # Ignore all CSVs in data/output directories
 *.csv
