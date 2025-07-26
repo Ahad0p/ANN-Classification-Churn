@@ -7,7 +7,6 @@ This project is a web application that predicts customer churn using an Artifici
 Check out the deployed app here:  
 👉 [Customer Churn Prediction App](https://ann-classification-churn-vzhws5n3w3lgxbh2gtykox.streamlit.app/)
 
-
 ## 🔍 Features
 
 - Takes user input for customer details
@@ -24,18 +23,17 @@ Check out the deployed app here:
    ```bash
    git clone <your-repo-url>
    cd <project-folder>
-
+   ```
 
 .
-├── app.py                     # Main Streamlit app
-├── model.h5                   # Trained Keras model
-├── scaler.pkl                 # StandardScaler
-├── onehot_encoder_geo.pkl     # OneHotEncoder for 'Geography'
-├── label_encoded_gender.pkl   # LabelEncoder for 'Gender'
-├── requirements.txt           # Python dependencies
-├── .gitignore                 # Git ignore file
-└── README.md                  # Project overview
-
+├── app.py # Main Streamlit app
+├── model.h5 # Trained Keras model
+├── scaler.pkl # StandardScaler
+├── onehot_encoder_geo.pkl # OneHotEncoder for 'Geography'
+├── label_encoded_gender.pkl # LabelEncoder for 'Gender'
+├── requirements.txt # Python dependencies
+├── .gitignore # Git ignore file
+└── README.md # Project overview
 
 🧠 Model Info
 -Trained on customer data to predict churn
