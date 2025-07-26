@@ -20,3 +20,22 @@ This project is a web application built using **Streamlit** that predicts whethe
    ```bash
    git clone <your-repo-url>
    cd <project-folder>
+
+
+.
+├── app.py                     # Main Streamlit app
+├── model.h5                   # Trained Keras model
+├── scaler.pkl                 # StandardScaler
+├── onehot_encoder_geo.pkl     # OneHotEncoder for 'Geography'
+├── label_encoded_gender.pkl   # LabelEncoder for 'Gender'
+├── requirements.txt           # Python dependencies
+├── .gitignore                 # Git ignore file
+└── README.md                  # Project overview
+
+
+🧠 Model Info
+-Trained on customer data to predict churn
+
+-Uses a neural network built with TensorFlow/Keras
+
+-Requires encoded and scaled input data for prediction
