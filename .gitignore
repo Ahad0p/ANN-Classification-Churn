@@ -14,7 +14,6 @@ ENV/
 
 # Model and encoder files
 *.keras
-*.pkl
 
 # OS-specific files
 .DS_Store
